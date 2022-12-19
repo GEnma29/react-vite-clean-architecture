@@ -12,6 +12,7 @@
       "@interceptors/*": ["src/interceptors/*"],
       "@models/*": ["src/models/*"],
       "@pages/*": ["src/pages/*"],
+      "@routers/*": ["src/routers/*"],
       "@services/*": ["src/services/*"],
       "@utilities/*": ["src/utilities/*"],
     },
