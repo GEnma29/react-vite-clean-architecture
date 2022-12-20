@@ -1,10 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import Gretter from "~/components/hello-world.component";
 
 const MainPage = () => {
   const navigate = useNavigate()
   return (
     <div>
-        <h1>Main Page</h1>
+        <Gretter />
         <button onClick={()=> navigate('/test')} >Go to another page</button>
     </div>
   )
